@@ -129,6 +129,44 @@ header nav ul {
   object-fit: cover;
 }
 
+/* || INFO  */
+
+.info {
+  padding: 60px 0 100px 0;
+}
+
+.info-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-h-main {
+  text-align: center;
+  font-weight: 36px;
+  font-weight: 800;
+  margin-bottom: 35px;
+}
+
+.info-box {
+  flex: 0 0 160px;
+}
+
+.info-img {
+  height: 160px;
+  width: 100%;
+  border: 5px solid #3882f6;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  text-align: center;
+  color: #2e2c2c;
+}
+
 /* || UTILITIES */
 
 .container {
