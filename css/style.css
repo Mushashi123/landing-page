@@ -196,6 +196,49 @@ header nav ul {
   font-size: 20px;
 }
 
+/* || SIGNUP  */
+
+.sign-up {
+  padding: 100px 0;
+}
+
+.banner {
+  background-color: #3882f6;
+  display: flex;
+  padding: 46px 115px;
+  border-radius: 10px;
+}
+
+.banner > * {
+  flex: 1 1 auto;
+}
+
+.banner-right {
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-h {
+  color: #f9faf8;
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+
+.banner-text {
+  color: #e5e7eb;
+  font-size: 17px;
+}
+
+.banner-btn {
+  border: 3px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 10px 32px;
+  border-radius: 9px;
+}
+
 /* || UTILITIES */
 
 .container {
