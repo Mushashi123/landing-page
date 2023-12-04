@@ -141,6 +141,8 @@ header nav ul {
   gap: 40px;
   align-items: center;
   justify-content: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .info-h-main {
@@ -165,6 +167,33 @@ header nav ul {
 .info-text {
   text-align: center;
   color: #2e2c2c;
+}
+
+/* || QUOTE  */
+
+.quote {
+  padding: 100px 0;
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  color: #1f2937;
+  width: 65%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 /* || UTILITIES */
