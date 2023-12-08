@@ -9,64 +9,80 @@
     <div class="hero-container">
       <header>
         <div class="container">
-          <div><a href="/" class="logo">Header Logo</a></div>
-          <nav>
-            <ul>
-              <li><a href="#" class="nav-links">Header Link One</a></li>
-              <li><a href="#" class="nav-links">Header Link Two</a></li>
-              <li><a href="#" class="nav-links">Header Link Three</a></li>
-            </ul>
-          </nav>
+          <div class="navbar">
+            <div><a href="/" class="navbar__logo">Header Logo</a></div>
+            <nav>
+              <ul class="nav-links">
+                <li>
+                  <a href="#" class="nav-links__items text-normal"
+                    >Header Link One</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="nav-links__items text-normal"
+                    >Header Link Two</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="nav-links__items text-normal"
+                    >Header Link Three</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
-      <section class="hero">
-        <div class="container">
-          <div class="split split-left">
-            <h1 class="hero-h-main">This Website Is Awesome</h1>
-            <p class="hero-text">
+
+      <section class="hero section-padding">
+        <div class="container container--split">
+          <div class="split">
+            <h1 class="hero__heading">This Website Is Awesome</h1>
+            <p class="hero__text text-normal">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo
               ipsam consequuntur numquam! Lorem ipsum dolor sit amet.
             </p>
-            <button type="button" class="hero-btn">Sign Up</button>
+            <button type="button" class="btn btn--blue">Sign Up</button>
           </div>
-          <div class="split split-right">
+          <div class="split">
             <img
               src=""
               alt="This is a placeholder for an image"
-              class="hero-img"
+              class="hero__img"
             />
           </div>
         </div>
       </section>
     </div>
-    <section class="info">
+
+    <section class="info section-padding">
       <div class="container">
-        <h2 class="info-h-main">Some Random Information</h2>
+        <h2 class="info__heading">Some Random Information</h2>
         <div class="info-container">
           <div class="info-box">
-            <img src="" alt="" class="info-img" />
-            <div class="info-text">
+            <img src="" alt="" class="info-box__img" />
+            <div class="info-box__text">
               Facere voluptatibus, consectetur mollitia dolorum
             </div>
           </div>
           <div class="info-box">
-            <img src="" alt="" class="info-img" />
+            <img src="" alt="" class="info-box__img" />
 
-            <div class="info-text">
+            <div class="info-box__text">
               Facere voluptatibus, consectetur mollitia dolorum
             </div>
           </div>
           <div class="info-box">
-            <img src="" alt="" class="info-img" />
+            <img src="" alt="" class="info-box__img" />
 
-            <div class="info-text">
+            <div class="info-box__text">
               Facere voluptatibus, consectetur mollitia dolorum
             </div>
           </div>
           <div class="info-box">
-            <img src="" alt="" class="info-img" />
+            <img src="" alt="" class="info-box__img" />
 
-            <div class="info-text">
+            <div class="info-box__text">
               Facere voluptatibus, consectetur mollitia dolorum
             </div>
           </div>
@@ -74,30 +90,35 @@
       </div>
     </section>
 
-    <section class="quote">
+    <section class="quote section-padding">
       <div class="container">
-        <p class="quote-text">
+        <p class="quote__content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
           fugit cupiditate hic voluptatem voluptate nisi tenetur, fuga itaque
           deleniti consequatur dicta eveniet sed eligendi molestiae, aperiam
           quis! Rerum, voluptatum optio!
         </p>
-        <p class="quote-author"><span>- Someone, Who said it</span></p>
+        <p class="quote__author">
+          &#8212; &nbsp; <span> Someone, Who said it</span>
+        </p>
       </div>
     </section>
 
-    <section class="sign-up">
+    <section class="sign-up section-padding">
       <div class="container">
         <div class="banner">
-          <div class="banner-left">
-            <h3 class="banner-h">Call to Action! It's Time.</h3>
-            <p class="banner-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
-              necessitatibus?
+          <div class="banner__left">
+            <h3 class="banner__header">Call to Action! It's Time.</h3>
+            <p class="banner__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem,
+              ipsum dolor. Lorem, ipsum dolor. Lorem ipsum dolor sit amet.
             </p>
           </div>
-          <div class="banner-right">
-            <button class="banner-btn">Sign Up</button>
+
+          <div class="banner__right">
+            <button class="btn btn--transparent btn--border-white">
+              Sign Up
+            </button>
           </div>
         </div>
       </div>
